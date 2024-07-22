@@ -32,6 +32,9 @@ def lambda_handler(event, context):
     selected_columns = ['bathrooms', 'bedrooms', 'city', 'homeStatus', 
                         'homeType', 'livingArea', 'price', 'rentZestimate', 'zipcode']
     df = df[selected_columns]
+    
+    # Remove rows with any null values
+    df = df.dropna()
     print(df)
     
     # Convert DataFrame to CSV format
@@ -42,5 +45,5 @@ def lambda_handler(event, context):
     
     return {
         'statusCode': 200,
-        'body': json.dumps('CSV conversion and S3 upload completed successfully')
+        'body': json.dumps('CSV conversion and S3 upload completed successfully, null values removed')
     }
