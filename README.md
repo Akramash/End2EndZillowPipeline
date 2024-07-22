@@ -39,6 +39,7 @@ This project demonstrates an end-to-end ETL (Extract, Transform, Load) pipeline 
 ### Amazon QuickSight
 
 - **Data Visualization**: Creates interactive dashboards and reports, enabling users to visualize and explore the data stored in Redshift.
+![Example of Dashboard](ZillowDashboard.gif)
 
 ## Benefits
 
