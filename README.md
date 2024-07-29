@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project demonstrates an end-to-end ETL (Extract, Transform, Load) pipeline utilizing a variety of AWS services to achieve a robust and scalable data processing workflow. The pipeline extracts real estate data from Zillow's API, processes and cleans the data, and loads it into Amazon Redshift for analysis and visualization using Amazon QuickSight.
+This project demonstrates an end-to-end ETL (Extract, Transform, Load) pipeline utilizing Apache Airflow orchestrating a variety of AWS services to achieve a robust and scalable data processing workflow. The pipeline extracts real estate data from Zillow's API, processes and cleans the data, and loads it into Amazon Redshift for analysis and visualization using Amazon QuickSight.
 
 ## Architecture
 
